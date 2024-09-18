@@ -1,88 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content=" About Thomas" />
 
-    <title>YATHOMASI | Awesome,Minimal</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Profile of Thomas Kunwar" />
+  <title>Thomas Kunwar | Profile</title>
 
-    <link rel="canonical" href="https://yathomasi.github.io/" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!-- <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Montserrat:400,700" rel="stylesheet" type="text/css" /> -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Philosopher"
-      rel="stylesheet"
-    />
-    <link
-      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/themes/bg-white.css" />
+  <link rel="canonical" href="https://fbk.com.np/" />
 
-    <!-- <link rel="stylesheet" href="css/themes/indigo-white.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-    <!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
-  </head>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
 
-  <body>
-    <main>
-      <div class="introd">Hello, I'm <br />Thomas Kunwar</div>
-      <div class="tagline">Taste | Code | Create</div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link href="css/fa/fontawesome.min.css" rel="stylesheet" />
+  <link href="css/fa/brands.min.css" rel="stylesheet" />
+
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Philosopher', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #333 url("img/intro-bg.jpg") no-repeat bottom center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      color: #f4f4f9;
+    }
+
+    main {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.05);
+      /* Slightly dark background for better readability */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .introd {
+      font-size: 2.25rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #f4f4f9;
+    }
+
+    .introd span {
+      font-size: 4.75rem;
+    }
+
+    .tagline {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      color: #e0e0e0;
+      /* Slightly lighter color for emphasis */
+    }
+
+    .line {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      color: #c9c9c9;
+      /* Lighter gray for less emphasis */
+    }
+
+    .icons-social {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .icons-social a {
+      font-size: 2em;
+      color: #f4f4f9;
+      transition: color 0.3s ease;
+    }
+
+    .icons-social a:hover {
+      color: #FFD700;
+    }
+
+    .copyleft {
+      color: #e0e0e0;
+    }
+
+    .copyleft span {
+      color: #f4f4f9;
+      display: inline-block;
+      transform: rotate(180deg);
+    }
+
+    @media (max-width: 600px) {
+      .introd {
+        font-size: 2em;
+      }
+
+      .tagline {
+        font-size: 1em;
+      }
+    }
+
+    .content {
+      position: absolute;
+      z-index: -1;
+      opacity: .15;
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="content content--canvas">
+    </div>
+
+      <div class="introd">Hello, I'm <br /><span>Thomas Kunwar</span></div>
+      <div class="tagline">Code | Design | Build | Innovate</div>
       <div class="line">Find Me Here</div>
-      <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+
       <div class="icons-social">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/yathomasi"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://facebook.com/yathomasi"
-          ><i class="fab fa-facebook"></i>
+        <a href="https://github.com/yathomasi" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/yathomasi"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/yathomasi"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://medium.com/@yathomasi1"
-          ><i class="fab fa-medium"></i
-        ></a>
-        <!-- <a target="_blank" href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a> -->
-        <!-- <a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a> -->
-        <!-- <a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a> -->
-        <!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
+        <a href="https://www.linkedin.com/in/yathomasi" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/yathomasi" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://medium.com/@yathomasi" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-medium"></i>
+        </a>
       </div>
+
       <div class="copyleft">
-        <p>Copyleft <span class="copy-left">&copy;</span> 2018</p>
+        <p>Copyleft <span>&copy;</span> 2018</p>
       </div>
-    </main>
-    <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
-    <noscript
-      ><img src="https://api.simpleanalytics.io/hello.gif" alt=""
-    /></noscript>
-  </body>
+
+
+  </main>
+
+  <script src="js/noise.min.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/coalesce.js"></script>
+</body>
+
 </html>
